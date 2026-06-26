@@ -10,9 +10,10 @@ jobs:
           distribution: temurin
           java-version: 17
       - uses: android-actions/setup-android@v3
-      - run: |
-          chmod +x gradlew
-          ./gradlew assembleRelease
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+      - run: gradle assembleRelease
       - uses: actions/upload-artifact@v4
         with:
           name: AutoClicker
