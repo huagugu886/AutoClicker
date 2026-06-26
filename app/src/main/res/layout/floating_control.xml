@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/control_bg"
+    android:padding="6dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请先选取目标"
+        android:textColor="#FF9800"
+        android:textSize="11sp"
+        android:maxWidth="120dp"
+        android:singleLine="true" />
+
+    <!-- 速度 - -->
+    <TextView
+        android:id="@+id/btnSub"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/btn_bg"
+        android:layout_marginStart="4dp" />
+
+    <!-- 速度 + -->
+    <TextView
+        android:id="@+id/btnAdd"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="@drawable/btn_bg"
+        android:layout_marginStart="2dp" />
+
+    <!-- 选取目标 -->
+    <TextView
+        android:id="@+id/btnTarget"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="◎"
+        android:textColor="#FF9800"
+        android:textSize="16sp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginStart="2dp" />
+
+    <!-- 开始 -->
+    <TextView
+        android:id="@+id/btnStart"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="▶"
+        android:textColor="#4CAF50"
+        android:textSize="14sp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginStart="2dp" />
+
+    <!-- 停止 -->
+    <TextView
+        android:id="@+id/btnStop"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:text="■"
+        android:textColor="#F44336"
+        android:textSize="14sp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginStart="2dp" />
+
+</LinearLayout>

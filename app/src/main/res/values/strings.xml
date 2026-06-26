@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">连点器</string>
+    <string name="accessibility_desc">自动点击服务，用于执行屏幕自动点击操作</string>
+</resources>
